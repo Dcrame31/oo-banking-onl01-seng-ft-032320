@@ -28,4 +28,5 @@ class Transfer
     self.receiver.balance-=amount
     self.sender.deposit(amount)
   end
+  end
 end
